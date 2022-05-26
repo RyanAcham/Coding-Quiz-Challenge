@@ -1,0 +1,70 @@
+body {
+    font-size: 20px;
+	font-family: 'Work Sans', sans-serif;
+	color: grey;
+    font-weight: 300;
+    text-align: center;
+    background-color: white;
+}
+
+h1{
+    font-weight: 300;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(173, 77, 77);
+    color: #fff;
+}
+
+.card{
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+    width: 100%;
+    position: absolute;
+}
+
+.act-card{
+    opacity: 1;
+    z-index: 2;
+}
+
+button{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    background-color: lightblue;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(202, 219, 224) ; 
+}
+
+.card-cont{
+    height: 200px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.ans {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.ans label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.ques{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
